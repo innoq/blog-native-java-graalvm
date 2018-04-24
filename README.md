@@ -14,3 +14,11 @@ bash-4.2# javac HelloWorld.java
 bash-4.2# native-image HelloWorld
 bash-4.2# ./helloworld
 ```
+
+### Hello World Server
+```bash
+docker run --rm -tiv `pwd`:/work -w /work
+bash-4.2# javac HelloWorldServer.java
+bash-4.2# native-image HelloWorldServer
+bash-4.2# ./helloworldserver
+```
