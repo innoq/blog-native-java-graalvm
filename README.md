@@ -22,3 +22,8 @@ bash-4.2# javac HelloWorldServer.java
 bash-4.2# native-image HelloWorldServer
 bash-4.2# ./helloworldserver
 ```
+
+### Containerize
+```bash
+docker build -f=Dockerfile.full . -t hello-graalvm
+```
